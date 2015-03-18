@@ -1,0 +1,114 @@
+<serverSettings>
+	<!-- 最大连接数-->
+	<maxConnectionsPerIp>99999</maxConnectionsPerIp>
+	<!-- 任务线程池大小-->
+	<schedulerThreadPoolSize>4</schedulerThreadPoolSize>
+	<!-- 协议包压缩门槛 （单位字节），当协议包大于设定的值则会进行压缩 -->
+	<protocolCompressionThreshold>1024</protocolCompressionThreshold>
+	<!-- 读缓冲区类型  nio  Direct Buffer  或者  Heap Buffer-->
+	<readBufferType>Heap</readBufferType>
+	<!-- 写入冲区类型  nio  Direct Buffer  或者  Heap Buffer-->
+	<writeBufferType>Heap</writeBufferType>
+	<!-- 最大的数据包大小 -->
+	<maxIncomingRequestSize>8000000</maxIncomingRequestSize>
+	<!-- 最大读取缓存大小 -->
+	<maxReadBufferSize>1024</maxReadBufferSize>
+	<!-- 最大写入缓存大小 -->
+	<maxWriteBufferSize>32768</maxWriteBufferSize>
+	<!-- 会话队列的大小-->
+	<sessionPacketQueueSize>160</sessionPacketQueueSize>
+	<!-- Thread Pool Size of the 3 main stages of the Bitswarm Engine -->
+	<socketAcceptorThreadPoolSize>1</socketAcceptorThreadPoolSize>
+	<socketReaderThreadPoolSize>1</socketReaderThreadPoolSize>
+	<socketWriterThreadPoolSize>3</socketWriterThreadPoolSize>
+	<!-- Enable disable Nagle algorithm on sockets, true == disable -->
+	<tcpNoDelay>true</tcpNoDelay>
+	<useDebugMode>true</useDebugMode>
+	<!-- 会话最大空闲时间-->
+	<sessionMaxIdleTime>30</sessionMaxIdleTime>
+	<!-- 用户最大空闲时间 -->
+	<userMaxIdleTime>300</userMaxIdleTime>
+	<ghostHunterEnabled>true</ghostHunterEnabled>
+	<statsExtraLoggingEnabled>true</statsExtraLoggingEnabled>
+	
+	<!-- Bind socket addresses -->
+	<socketAddresses>
+		<socket address="192.168.0.235" port="9934" type="TCP" />
+		<socket address="192.168.0.235" port="9934" type="UDP" />
+	</socketAddresses>
+	
+	<!-- Ip addresses filter-->
+	<ipFilter>
+		<addressBlackList>
+			<string>1.2.3.4</string>
+		</addressBlackList>
+		<addressWhiteList>
+			<string>127.0.0.1</string>
+		</addressWhiteList>
+		<maxConnectionsPerAddress>9999999</maxConnectionsPerAddress>
+	</ipFilter>
+	
+	<!-- Database manager Config -->
+	<databaseManager active="true">
+	    <driverName>com.mysql.jdbc.Driver</driverName>
+	    <connectionString>jdbc:mysql://192.168.0.235:3306/db_login</connectionString>
+	    <userName>root</userName>
+	    <password>123456</password>
+	    <isMapping>true</isMapping>
+	    <mappingFile>config/mappingdb.xml</mappingFile>
+	</databaseManager>
+	
+	<!-- Main extension class -->
+	<extensionSettings>
+		<name>extension - test </name>
+		<className>com.mpnet.test.TestExtension</className>
+	</extensionSettings>
+
+	<!-- The system thread pool config -->
+	<systemThreadPoolSettings>
+		<name>Sys</name>
+		<coreThreads>4</coreThreads>
+		<backupThreads>8</backupThreads>
+		<maxBackups>16</maxBackups>
+		<queueSizeTriggeringBackup>100</queueSizeTriggeringBackup>
+		<secondsTriggeringBackup>50</secondsTriggeringBackup>
+		<backupThreadsExpiry>3600</backupThreadsExpiry>
+		<queueSizeTriggeringBackupExpiry>60</queueSizeTriggeringBackupExpiry>
+		<logActivity>true</logActivity>
+		<queueFullWarningInterval>300</queueFullWarningInterval>
+	</systemThreadPoolSettings>
+
+	<!-- The extension thread pool config -->
+	<extensionThreadPoolSettings>
+		<name>Ext</name>
+		<coreThreads>4</coreThreads>
+		<backupThreads>8</backupThreads>
+		<maxBackups>16</maxBackups>
+		<queueSizeTriggeringBackup>100</queueSizeTriggeringBackup>
+		<secondsTriggeringBackup>50</secondsTriggeringBackup>
+		<backupThreadsExpiry>3600</backupThreadsExpiry>
+		<queueSizeTriggeringBackupExpiry>60</queueSizeTriggeringBackupExpiry>
+		<logActivity>true</logActivity>
+		<queueFullWarningInterval>300</queueFullWarningInterval>
+	</extensionThreadPoolSettings>
+
+	<!-- The user config -->
+	<userSettings>
+		<isCustomLogin>true</isCustomLogin>
+		<isForceLogout>true</isForceLogout>
+		<applyWordsFilterToUserName>true</applyWordsFilterToUserName>
+		<maxUsers>10000</maxUsers>
+
+		<userReconnectionSeconds>0</userReconnectionSeconds>
+		<overrideMaxUserIdleTime>300</overrideMaxUserIdleTime>
+		<allowGuestUsers>true</allowGuestUsers>
+		<guestUserNamePrefix>Guest#</guestUserNamePrefix>
+	</userSettings>
+
+	<!-- The wrods filter config -->
+	<wordsFilter active="true">
+		<wordsFile>config/wordsFile.txt</wordsFile>
+		<hideBadWordWithCharacter>*</hideBadWordWithCharacter>
+	</wordsFilter>
+	
+</serverSettings>

@@ -1,0 +1,76 @@
+18 三月 2015 | 17:44:27,021 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+18 三月 2015 | 17:44:27,022 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+18 三月 2015 | 17:44:27,120 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+18 三月 2015 | 17:44:27,121 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+18 三月 2015 | 17:44:27,556 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
+18 三月 2015 | 17:44:27,556 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
+18 三月 2015 | 17:44:27,561 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
+18 三月 2015 | 17:44:27,562 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
+18 三月 2015 | 17:44:27,563 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
+18 三月 2015 | 17:44:27,566 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@67f2139c
+18 三月 2015 | 17:44:27,580 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
+18 三月 2015 | 17:44:27,585 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
+18 三月 2015 | 17:44:27,587 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
+18 三月 2015 | 17:44:27,590 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 192.168.0.235:9934
+18 三月 2015 | 17:44:27,592 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 192.168.0.235:9934
+18 三月 2015 | 17:44:27,593 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
+18 三月 2015 | 17:44:27,593 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
+18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@52606914
+18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
+18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
+18 三月 2015 | 17:44:27,594 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
+18 三月 2015 | 17:44:27,594 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
+18 三月 2015 | 17:44:27,594 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
+18 三月 2015 | 17:44:27,596 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)192.168.0.235[9934] (Udp)192.168.0.235[9934] 
+18 三月 2015 | 17:44:27,596 | INFO  | main | com.mpnet.MPNetServer |     | 
+
+==============================================================================
+>>Server(1.0.0) ready!
+============================================================================== 
+
+18 三月 2015 | 17:51:48,980 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+18 三月 2015 | 17:51:48,982 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+18 三月 2015 | 17:51:49,079 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+18 三月 2015 | 17:51:49,079 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+18 三月 2015 | 17:51:49,252 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
+18 三月 2015 | 17:51:49,252 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
+18 三月 2015 | 17:51:49,257 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
+18 三月 2015 | 17:51:49,257 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
+18 三月 2015 | 17:51:49,258 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
+18 三月 2015 | 17:51:49,261 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@12cb1b59
+18 三月 2015 | 17:51:49,273 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
+18 三月 2015 | 17:51:49,279 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
+18 三月 2015 | 17:51:49,282 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
+18 三月 2015 | 17:51:49,285 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 192.168.0.235:9934
+18 三月 2015 | 17:51:49,287 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 192.168.0.235:9934
+18 三月 2015 | 17:51:49,289 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
+18 三月 2015 | 17:51:49,289 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
+18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@55ebc96b
+18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
+18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
+18 三月 2015 | 17:51:49,290 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
+18 三月 2015 | 17:51:49,291 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
+18 三月 2015 | 17:51:49,291 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
+18 三月 2015 | 17:51:49,293 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)192.168.0.235[9934] (Udp)192.168.0.235[9934] 
+18 三月 2015 | 17:51:49,293 | INFO  | main | com.mpnet.MPNetServer |     | 
+
+==============================================================================
+>>Server(1.0.0) ready!
+============================================================================== 
+

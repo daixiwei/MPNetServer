@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappingConfig>
+	<autoCommit>true</autoCommit>
+	<initialDelayTime>60</initialDelayTime>
+	<intervalTime>60</intervalTime>
+	
+	<tables>
+		<table>
+			<name>users</name>
+			<className>com.mpnet.test.UserBean</className>
+			<findpks>
+				<findpk key="username" colIndex="2"/>
+			</findpks>
+		</table>
+	</tables>
+</mappingConfig>
