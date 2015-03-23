@@ -1,76 +1,295 @@
-18 三月 2015 | 17:44:27,021 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
-18 三月 2015 | 17:44:27,022 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
-18 三月 2015 | 17:44:27,023 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
-18 三月 2015 | 17:44:27,120 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
-18 三月 2015 | 17:44:27,121 | INFO  | main | entities.managers.MPUserManager |     | User service start!
-18 三月 2015 | 17:44:27,556 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
-18 三月 2015 | 17:44:27,556 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
-18 三月 2015 | 17:44:27,561 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
-18 三月 2015 | 17:44:27,562 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
-18 三月 2015 | 17:44:27,563 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
-18 三月 2015 | 17:44:27,566 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@67f2139c
-18 三月 2015 | 17:44:27,580 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
-18 三月 2015 | 17:44:27,585 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
-18 三月 2015 | 17:44:27,587 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
-18 三月 2015 | 17:44:27,590 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 192.168.0.235:9934
-18 三月 2015 | 17:44:27,592 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 192.168.0.235:9934
-18 三月 2015 | 17:44:27,593 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
-18 三月 2015 | 17:44:27,593 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
-18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@52606914
-18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
-18 三月 2015 | 17:44:27,593 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
-18 三月 2015 | 17:44:27,594 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
-18 三月 2015 | 17:44:27,594 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
-18 三月 2015 | 17:44:27,594 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
-18 三月 2015 | 17:44:27,596 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)192.168.0.235[9934] (Udp)192.168.0.235[9934] 
-18 三月 2015 | 17:44:27,596 | INFO  | main | com.mpnet.MPNetServer |     | 
+23 三月 2015 | 16:00:06,226 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:12907 }
+23 三月 2015 | 16:00:06,227 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:00:06,228 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 4, Priv: 0, Sess: 127.0.0.1:12907 ) , SessionLen: 216310, Type: C#MonoOrWin
+23 三月 2015 | 16:00:06,228 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:00:22,951 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13004 } on Server linkPort: 9934 <---> 13004
+23 三月 2015 | 16:00:22,951 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13005 } on Server linkPort: 9934 <---> 13005
+23 三月 2015 | 16:00:23,114 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 5, Priv: 0, Sess: 127.0.0.1:13004 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:00:23,370 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 6, Priv: 0, Sess: 127.0.0.1:13005 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:00:23,374 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:00:23,379 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:00:30,104 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13005 }
+23 三月 2015 | 16:00:30,105 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:00:30,105 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 6, Priv: 0, Sess: 127.0.0.1:13005 ) , SessionLen: 6735, Type: C#MonoOrWin
+23 三月 2015 | 16:00:30,105 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:02:52,318 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13004 }
+23 三月 2015 | 16:02:52,319 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:02:52,320 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 5, Priv: 0, Sess: 127.0.0.1:13004 ) , SessionLen: 149205, Type: C#MonoOrWin
+23 三月 2015 | 16:02:52,320 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:04:11,936 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13106 } on Server linkPort: 9934 <---> 13106
+23 三月 2015 | 16:04:11,936 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13107 } on Server linkPort: 9934 <---> 13107
+23 三月 2015 | 16:04:12,118 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 7, Priv: 0, Sess: 127.0.0.1:13106 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:04:12,124 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 8, Priv: 0, Sess: 127.0.0.1:13107 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:04:12,398 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:04:12,403 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:04:17,336 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13106 }
+23 三月 2015 | 16:04:17,337 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 7, Priv: 0, Sess: 127.0.0.1:13106 ) , SessionLen: 5219, Type: C#MonoOrWin
+23 三月 2015 | 16:04:17,337 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:04:17,338 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:04:17,338 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13107 }
+23 三月 2015 | 16:04:17,338 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:04:17,339 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 8, Priv: 0, Sess: 127.0.0.1:13107 ) , SessionLen: 5215, Type: C#MonoOrWin
+23 三月 2015 | 16:04:17,339 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:05:37,316 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13151 } on Server linkPort: 9934 <---> 13151
+23 三月 2015 | 16:05:37,316 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13150 } on Server linkPort: 9934 <---> 13150
+23 三月 2015 | 16:05:37,552 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 9, Priv: 0, Sess: 127.0.0.1:13150 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:05:37,558 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 10, Priv: 0, Sess: 127.0.0.1:13151 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:05:37,810 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:05:37,814 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:05:47,201 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13150 }
+23 三月 2015 | 16:05:47,202 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:05:47,202 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 9, Priv: 0, Sess: 127.0.0.1:13150 ) , SessionLen: 9650, Type: C#MonoOrWin
+23 三月 2015 | 16:05:47,202 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:05:47,203 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13151 }
+23 三月 2015 | 16:05:47,203 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 10, Priv: 0, Sess: 127.0.0.1:13151 ) , SessionLen: 9645, Type: C#MonoOrWin
+23 三月 2015 | 16:05:47,203 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:05:47,205 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:16:20,345 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+23 三月 2015 | 16:16:20,346 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+23 三月 2015 | 16:16:20,347 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+23 三月 2015 | 16:16:20,445 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+23 三月 2015 | 16:16:20,445 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+23 三月 2015 | 16:16:20,625 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
+23 三月 2015 | 16:16:20,625 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
+23 三月 2015 | 16:16:20,630 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
+23 三月 2015 | 16:16:20,630 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
+23 三月 2015 | 16:16:20,631 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
+23 三月 2015 | 16:16:20,635 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@c0b4fdc
+23 三月 2015 | 16:16:20,649 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
+23 三月 2015 | 16:16:20,655 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
+23 三月 2015 | 16:16:20,657 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
+23 三月 2015 | 16:16:20,661 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 127.0.0.1:9934
+23 三月 2015 | 16:16:20,663 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 127.0.0.1:9934
+23 三月 2015 | 16:16:20,664 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
+23 三月 2015 | 16:16:20,665 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
+23 三月 2015 | 16:16:20,665 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@6e63f7c7
+23 三月 2015 | 16:16:20,666 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
+23 三月 2015 | 16:16:20,666 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
+23 三月 2015 | 16:16:20,666 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
+23 三月 2015 | 16:16:20,666 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
+23 三月 2015 | 16:16:20,667 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
+23 三月 2015 | 16:16:20,669 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)127.0.0.1[9934] (Udp)127.0.0.1[9934] 
+23 三月 2015 | 16:16:20,669 | INFO  | main | com.mpnet.MPNetServer |     | 
 
 ==============================================================================
 >>Server(1.0.0) ready!
 ============================================================================== 
 
-18 三月 2015 | 17:51:48,980 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
-18 三月 2015 | 17:51:48,981 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
-18 三月 2015 | 17:51:48,982 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
-18 三月 2015 | 17:51:49,079 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
-18 三月 2015 | 17:51:49,079 | INFO  | main | entities.managers.MPUserManager |     | User service start!
-18 三月 2015 | 17:51:49,252 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
-18 三月 2015 | 17:51:49,252 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
-18 三月 2015 | 17:51:49,257 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
-18 三月 2015 | 17:51:49,257 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
-18 三月 2015 | 17:51:49,258 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
-18 三月 2015 | 17:51:49,261 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@12cb1b59
-18 三月 2015 | 17:51:49,273 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
-18 三月 2015 | 17:51:49,279 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
-18 三月 2015 | 17:51:49,282 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
-18 三月 2015 | 17:51:49,285 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 192.168.0.235:9934
-18 三月 2015 | 17:51:49,287 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 192.168.0.235:9934
-18 三月 2015 | 17:51:49,289 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
-18 三月 2015 | 17:51:49,289 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
-18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@55ebc96b
-18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
-18 三月 2015 | 17:51:49,289 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
-18 三月 2015 | 17:51:49,290 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
-18 三月 2015 | 17:51:49,291 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
-18 三月 2015 | 17:51:49,291 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
-18 三月 2015 | 17:51:49,293 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)192.168.0.235[9934] (Udp)192.168.0.235[9934] 
-18 三月 2015 | 17:51:49,293 | INFO  | main | com.mpnet.MPNetServer |     | 
+23 三月 2015 | 16:16:26,209 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13470 } on Server linkPort: 9934 <---> 13470
+23 三月 2015 | 16:16:26,214 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13469 } on Server linkPort: 9934 <---> 13469
+23 三月 2015 | 16:16:26,296 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 0, Priv: 0, Sess: 127.0.0.1:13469 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:16:26,306 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 1, Priv: 0, Sess: 127.0.0.1:13470 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:16:26,568 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:16:26,573 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:16:27,702 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13470 }
+23 三月 2015 | 16:16:27,706 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 1, Priv: 0, Sess: 127.0.0.1:13470 ) , SessionLen: 1399, Type: C#MonoOrWin
+23 三月 2015 | 16:16:27,706 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:16:27,706 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:16:27,709 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13469 }
+23 三月 2015 | 16:16:27,710 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:16:27,711 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 0, Priv: 0, Sess: 127.0.0.1:13469 ) , SessionLen: 1414, Type: C#MonoOrWin
+23 三月 2015 | 16:16:27,711 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:16:30,253 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 3, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13475 } on Server linkPort: 9934 <---> 13475
+23 三月 2015 | 16:16:30,253 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 4, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13474 } on Server linkPort: 9934 <---> 13474
+23 三月 2015 | 16:16:30,360 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 2, Priv: 0, Sess: 127.0.0.1:13474 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:16:30,361 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 3, Priv: 0, Sess: 127.0.0.1:13475 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:16:30,656 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:16:30,661 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:16:31,506 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 4, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13474 }
+23 三月 2015 | 16:16:31,506 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:16:31,506 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 2, Priv: 0, Sess: 127.0.0.1:13474 ) , SessionLen: 1146, Type: C#MonoOrWin
+23 三月 2015 | 16:16:31,506 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:16:31,507 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 3, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13475 }
+23 三月 2015 | 16:16:31,507 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:16:31,507 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 3, Priv: 0, Sess: 127.0.0.1:13475 ) , SessionLen: 1146, Type: C#MonoOrWin
+23 三月 2015 | 16:16:31,507 | INFO  | SocketReader | bitswarm.core.SocketReader |     | Socket closed: java.nio.channels.SocketChannel[closed]
+23 三月 2015 | 16:20:13,520 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 5, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13769 } on Server linkPort: 9934 <---> 13769
+23 三月 2015 | 16:20:13,520 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 6, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13770 } on Server linkPort: 9934 <---> 13770
+23 三月 2015 | 16:20:13,622 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 4, Priv: 0, Sess: 127.0.0.1:13769 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:20:13,623 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 5, Priv: 0, Sess: 127.0.0.1:13770 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:20:13,924 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:20:13,929 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:20:17,955 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 5, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13769 }
+23 三月 2015 | 16:20:17,956 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:20:17,956 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 4, Priv: 0, Sess: 127.0.0.1:13769 ) , SessionLen: 4334, Type: C#MonoOrWin
+23 三月 2015 | 16:20:17,956 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 6, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13770 }
+23 三月 2015 | 16:20:17,957 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 5, Priv: 0, Sess: 127.0.0.1:13770 ) , SessionLen: 4334, Type: C#MonoOrWin
+23 三月 2015 | 16:20:17,958 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:20:20,381 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 7, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13777 } on Server linkPort: 9934 <---> 13777
+23 三月 2015 | 16:20:20,381 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 8, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13776 } on Server linkPort: 9934 <---> 13776
+23 三月 2015 | 16:20:20,482 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 6, Priv: 0, Sess: 127.0.0.1:13776 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:20:20,483 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 7, Priv: 0, Sess: 127.0.0.1:13777 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:20:20,784 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:20:20,789 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:20:21,829 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 8, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13776 }
+23 三月 2015 | 16:20:21,829 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:20:21,830 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 6, Priv: 0, Sess: 127.0.0.1:13776 ) , SessionLen: 1348, Type: C#MonoOrWin
+23 三月 2015 | 16:20:21,830 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 7, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13777 }
+23 三月 2015 | 16:20:21,830 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 7, Priv: 0, Sess: 127.0.0.1:13777 ) , SessionLen: 1347, Type: C#MonoOrWin
+23 三月 2015 | 16:20:21,830 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:04,976 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 9, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13791 } on Server linkPort: 9934 <---> 13791
+23 三月 2015 | 16:21:04,976 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 10, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13792 } on Server linkPort: 9934 <---> 13792
+23 三月 2015 | 16:21:05,132 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 8, Priv: 0, Sess: 127.0.0.1:13792 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:05,138 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 9, Priv: 0, Sess: 127.0.0.1:13791 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:05,435 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:05,438 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:06,967 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 10, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13792 }
+23 三月 2015 | 16:21:06,967 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 8, Priv: 0, Sess: 127.0.0.1:13792 ) , SessionLen: 1835, Type: C#MonoOrWin
+23 三月 2015 | 16:21:06,967 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:21:06,968 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 9, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13791 }
+23 三月 2015 | 16:21:06,968 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 9, Priv: 0, Sess: 127.0.0.1:13791 ) , SessionLen: 1830, Type: C#MonoOrWin
+23 三月 2015 | 16:21:06,968 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:10,524 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 11, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13797 } on Server linkPort: 9934 <---> 13797
+23 三月 2015 | 16:21:10,524 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 12, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13798 } on Server linkPort: 9934 <---> 13798
+23 三月 2015 | 16:21:10,625 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 10, Priv: 0, Sess: 127.0.0.1:13797 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:10,631 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 11, Priv: 0, Sess: 127.0.0.1:13798 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:10,927 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:10,931 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:11,717 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 11, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13797 }
+23 三月 2015 | 16:21:11,718 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:21:11,718 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 10, Priv: 0, Sess: 127.0.0.1:13797 ) , SessionLen: 1093, Type: C#MonoOrWin
+23 三月 2015 | 16:21:11,718 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 12, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13798 }
+23 三月 2015 | 16:21:11,719 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:11,719 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 11, Priv: 0, Sess: 127.0.0.1:13798 ) , SessionLen: 1088, Type: C#MonoOrWin
+23 三月 2015 | 16:21:15,250 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 13, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13802 } on Server linkPort: 9934 <---> 13802
+23 三月 2015 | 16:21:15,255 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 14, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13801 } on Server linkPort: 9934 <---> 13801
+23 三月 2015 | 16:21:15,361 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 12, Priv: 0, Sess: 127.0.0.1:13802 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:15,362 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 13, Priv: 0, Sess: 127.0.0.1:13801 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:15,661 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:15,665 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:16,447 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 13, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13802 }
+23 三月 2015 | 16:21:16,448 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 12, Priv: 0, Sess: 127.0.0.1:13802 ) , SessionLen: 1087, Type: C#MonoOrWin
+23 三月 2015 | 16:21:16,448 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:21:16,453 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 14, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13801 }
+23 三月 2015 | 16:21:16,454 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:16,454 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 13, Priv: 0, Sess: 127.0.0.1:13801 ) , SessionLen: 1092, Type: C#MonoOrWin
+23 三月 2015 | 16:21:18,554 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 15, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13806 } on Server linkPort: 9934 <---> 13806
+23 三月 2015 | 16:21:18,554 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 16, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13805 } on Server linkPort: 9934 <---> 13805
+23 三月 2015 | 16:21:18,661 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 14, Priv: 0, Sess: 127.0.0.1:13805 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:18,667 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 15, Priv: 0, Sess: 127.0.0.1:13806 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:18,963 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:18,967 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:19,648 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 16, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13805 }
+23 三月 2015 | 16:21:19,648 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 14, Priv: 0, Sess: 127.0.0.1:13805 ) , SessionLen: 987, Type: C#MonoOrWin
+23 三月 2015 | 16:21:19,649 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 15, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13806 }
+23 三月 2015 | 16:21:19,649 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 15, Priv: 0, Sess: 127.0.0.1:13806 ) , SessionLen: 982, Type: C#MonoOrWin
+23 三月 2015 | 16:21:19,649 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:21:19,649 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:22,978 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 17, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13811 } on Server linkPort: 9934 <---> 13811
+23 三月 2015 | 16:21:22,978 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 18, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13812 } on Server linkPort: 9934 <---> 13812
+23 三月 2015 | 16:21:23,084 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg2, Id: 16, Priv: 0, Sess: 127.0.0.1:13812 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:23,085 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg1, Id: 17, Priv: 0, Sess: 127.0.0.1:13811 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:21:23,386 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:23,390 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server 
+23 三月 2015 | 16:21:24,111 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 18, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13812 }
+23 三月 2015 | 16:21:24,112 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg2离开! 
+23 三月 2015 | 16:21:24,113 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg2, Id: 16, Priv: 0, Sess: 127.0.0.1:13812 ) , SessionLen: 1028, Type: C#MonoOrWin
+23 三月 2015 | 16:21:24,114 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 17, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13811 }
+23 三月 2015 | 16:21:24,114 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg1, Id: 17, Priv: 0, Sess: 127.0.0.1:13811 ) , SessionLen: 1029, Type: C#MonoOrWin
+23 三月 2015 | 16:21:24,115 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg1离开! 
+23 三月 2015 | 16:23:32,335 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 19, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13828 } on Server linkPort: 9934 <---> 13828
+23 三月 2015 | 16:23:32,455 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 18, Priv: 0, Sess: 127.0.0.1:13828 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:23:32,767 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:23:37,191 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 19, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13828 }
+23 三月 2015 | 16:23:37,191 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:23:37,192 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 18, Priv: 0, Sess: 127.0.0.1:13828 ) , SessionLen: 4737, Type: C#MonoOrWin
+23 三月 2015 | 16:23:43,409 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 20, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13854 } on Server linkPort: 9934 <---> 13854
+23 三月 2015 | 16:23:43,529 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 19, Priv: 0, Sess: 127.0.0.1:13854 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:23:43,830 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:23:44,536 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 20, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13854 }
+23 三月 2015 | 16:23:44,538 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 19, Priv: 0, Sess: 127.0.0.1:13854 ) , SessionLen: 1009, Type: C#MonoOrWin
+23 三月 2015 | 16:23:44,539 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:23:48,110 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 21, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13857 } on Server linkPort: 9934 <---> 13857
+23 三月 2015 | 16:23:48,230 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 20, Priv: 0, Sess: 127.0.0.1:13857 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:23:48,531 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:23:49,231 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 21, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13857 }
+23 三月 2015 | 16:23:49,231 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 20, Priv: 0, Sess: 127.0.0.1:13857 ) , SessionLen: 1001, Type: C#MonoOrWin
+23 三月 2015 | 16:23:49,232 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:24:09,934 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 22, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13860 } on Server linkPort: 9934 <---> 13860
+23 三月 2015 | 16:24:10,054 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 21, Priv: 0, Sess: 127.0.0.1:13860 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:24:10,365 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:24:12,020 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 22, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13860 }
+23 三月 2015 | 16:24:12,020 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:24:12,021 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 21, Priv: 0, Sess: 127.0.0.1:13860 ) , SessionLen: 1967, Type: C#MonoOrWin
+23 三月 2015 | 16:24:15,016 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 23, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13863 } on Server linkPort: 9934 <---> 13863
+23 三月 2015 | 16:24:15,136 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 22, Priv: 0, Sess: 127.0.0.1:13863 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:24:15,437 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:24:16,432 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 23, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13863 }
+23 三月 2015 | 16:24:16,432 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 22, Priv: 0, Sess: 127.0.0.1:13863 ) , SessionLen: 1296, Type: C#MonoOrWin
+23 三月 2015 | 16:24:16,433 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:24:18,544 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 24, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13866 } on Server linkPort: 9934 <---> 13866
+23 三月 2015 | 16:24:18,664 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 23, Priv: 0, Sess: 127.0.0.1:13866 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:24:18,970 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:24:19,657 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 24, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13866 }
+23 三月 2015 | 16:24:19,657 | INFO  | MPWorker:Ext:1 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:24:19,657 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 23, Priv: 0, Sess: 127.0.0.1:13866 ) , SessionLen: 993, Type: C#MonoOrWin
+23 三月 2015 | 16:24:53,970 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 25, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13875 } on Server linkPort: 9934 <---> 13875
+23 三月 2015 | 16:24:54,085 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 24, Priv: 0, Sess: 127.0.0.1:13875 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:24:54,491 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:24:55,501 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 25, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13875 }
+23 三月 2015 | 16:24:55,502 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:24:55,504 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 24, Priv: 0, Sess: 127.0.0.1:13875 ) , SessionLen: 1419, Type: C#MonoOrWin
+23 三月 2015 | 16:25:01,432 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 26, Type: DEFAULT, Logged: No, IP: 127.0.0.1:13878 } on Server linkPort: 9934 <---> 13878
+23 三月 2015 | 16:25:01,547 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 25, Priv: 0, Sess: 127.0.0.1:13878 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:25:01,963 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:25:02,878 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 26, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:13878 }
+23 三月 2015 | 16:25:02,878 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 25, Priv: 0, Sess: 127.0.0.1:13878 ) , SessionLen: 1331, Type: C#MonoOrWin
+23 三月 2015 | 16:25:02,878 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+23 三月 2015 | 16:51:57,383 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+23 三月 2015 | 16:51:57,483 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+23 三月 2015 | 16:51:57,483 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+23 三月 2015 | 16:51:57,663 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
+23 三月 2015 | 16:51:57,663 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
+23 三月 2015 | 16:51:57,663 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
+23 三月 2015 | 16:51:57,663 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
+23 三月 2015 | 16:51:57,663 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
+23 三月 2015 | 16:51:57,673 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@58278ad3
+23 三月 2015 | 16:51:57,683 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
+23 三月 2015 | 16:51:57,693 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
+23 三月 2015 | 16:51:57,693 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 127.0.0.1:9934
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 127.0.0.1:9934
+23 三月 2015 | 16:51:57,703 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
+23 三月 2015 | 16:51:57,703 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@7261bb9b
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
+23 三月 2015 | 16:51:57,703 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
+23 三月 2015 | 16:51:57,703 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
+23 三月 2015 | 16:51:57,703 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)127.0.0.1[9934] (Udp)127.0.0.1[9934] 
+23 三月 2015 | 16:51:57,703 | INFO  | main | com.mpnet.MPNetServer |     | 
 
 ==============================================================================
 >>Server(1.0.0) ready!
 ============================================================================== 
 
+23 三月 2015 | 16:52:01,873 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1477 } on Server linkPort: 9934 <---> 1477
+23 三月 2015 | 16:52:01,999 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 0, Priv: 0, Sess: 127.0.0.1:1477 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:52:02,379 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:52:04,502 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1477 }
+23 三月 2015 | 16:52:04,514 | INFO  | MPWorker:Ext:4 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:52:04,514 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 0, Priv: 0, Sess: 127.0.0.1:1477 ) , SessionLen: 2515, Type: C#MonoOrWin
+23 三月 2015 | 16:52:15,964 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:1480 } on Server linkPort: 9934 <---> 1480
+23 三月 2015 | 16:52:16,074 | INFO  | SocketReader | mpnet.api.MPApi |     | User login: ( User Name: ggg, Id: 1, Priv: 0, Sess: 127.0.0.1:1480 ) , Type: C#MonoOrWin
+23 三月 2015 | 16:52:16,464 | INFO  | MPWorker:Ext:2 | Extensions |     | {extension - test }: hello server! 
+23 三月 2015 | 16:52:21,001 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:1480 }
+23 三月 2015 | 16:52:21,002 | INFO  | MPWorker:Ext:3 | Extensions |     | {extension - test }: ggg离开! 
+23 三月 2015 | 16:52:21,002 | INFO  | SocketReader | mpnet.api.MPApi |     | User disconnected: ( User Name: ggg, Id: 1, Priv: 0, Sess: 127.0.0.1:1480 ) , SessionLen: 4928, Type: C#MonoOrWin
+23 三月 2015 | 16:55:57,717 | INFO  | pool-1-thread-3 | mpnet.util.CCULoggerTask |     | CCU stats: CCU: 0/0

@@ -1,0 +1,2 @@
+23 三月 2015 | 11:02:01,682 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:3545 } on Server linkPort: 9934 <---> 3545
+23 三月 2015 | 11:02:14,080 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 2, Type: DEFAULT, Logged: No, IP: 127.0.0.1:3545 }

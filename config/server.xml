@@ -33,8 +33,8 @@
 	
 	<!-- Bind socket addresses -->
 	<socketAddresses>
-		<socket address="192.168.0.235" port="9934" type="TCP" />
-		<socket address="192.168.0.235" port="9934" type="UDP" />
+		<socket address="127.0.0.1" port="9934" type="TCP" />
+		<socket address="127.0.0.1" port="9934" type="UDP" />
 	</socketAddresses>
 	
 	<!-- Ip addresses filter-->
@@ -51,9 +51,9 @@
 	<!-- Database manager Config -->
 	<databaseManager active="true">
 	    <driverName>com.mysql.jdbc.Driver</driverName>
-	    <connectionString>jdbc:mysql://192.168.0.235:3306/db_login</connectionString>
+	    <connectionString>jdbc:mysql://127.0.0.1:3306/db_login</connectionString>
 	    <userName>root</userName>
-	    <password>123456</password>
+	    <password></password>
 	    <isMapping>true</isMapping>
 	    <mappingFile>config/mappingdb.xml</mappingFile>
 	</databaseManager>

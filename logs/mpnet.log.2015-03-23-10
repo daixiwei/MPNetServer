@@ -1,0 +1,67 @@
+23 三月 2015 | 10:38:13,887 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+23 三月 2015 | 10:38:13,909 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+23 三月 2015 | 10:38:13,909 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+23 三月 2015 | 10:38:13,909 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+23 三月 2015 | 10:38:13,910 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+23 三月 2015 | 10:38:14,456 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+23 三月 2015 | 10:38:14,477 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+23 三月 2015 | 10:38:14,935 | ERROR | main | com.mpnet.MPNetServer |     | com.mpnet.exceptions.MPRuntimeException:
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Exception: com.mpnet.exceptions.MPRuntimeException
+Message: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+Description: Unexpected error during Server boot. The server cannot start.
++--- --- ---+
+Stack Trace:
++--- --- ---+
+com.mpnet.db.MPDBManager.init(MPDBManager.java:48)
+com.mpnet.MPNetServer.configureServer(MPNetServer.java:344)
+com.mpnet.MPNetServer.start(MPNetServer.java:133)
+com.mpnet.Main.main(Main.java:24)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+23 三月 2015 | 10:38:54,889 | INFO  | main | com.mpnet.MPNetServer |     | System CPU(s): 4
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | VM Max memory: 1882 MB
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | os.name: Windows 7
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | os.arch: amd64
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | os.version: 6.1
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | java.version: 1.7.0_71
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | java.vendor: Oracle Corporation
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.version: 24.71-b01
+23 三月 2015 | 10:38:54,891 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.vendor: Oracle Corporation
+23 三月 2015 | 10:38:54,892 | INFO  | main | com.mpnet.MPNetServer |     | java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+23 三月 2015 | 10:38:54,990 | INFO  | main | mpnet.core.MPEventManager |     | AnonymousService-0 initalized
+23 三月 2015 | 10:38:54,991 | INFO  | main | entities.managers.MPUserManager |     | User service start!
+23 三月 2015 | 10:38:55,298 | INFO  | main | mpnet.db.MPDataMappManager |     | Data mapping Manager active
+23 三月 2015 | 10:38:55,298 | INFO  | main | mpnet.db.MPDBManager |     | Data base Manager active
+23 三月 2015 | 10:38:55,466 | INFO  | main | com.mpnet.MPNetServer |     | Protocol Type is: BINARY
+23 三月 2015 | 10:38:55,467 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Bit Swarm Engine!
+23 三月 2015 | 10:38:55,527 | INFO  | main | bitswarm.core.BitSwarmEngine |     | BitSwarmEngine :  { main }
+23 三月 2015 | 10:38:55,629 | INFO  | main | bitswarm.core.BitSwarmEngine |     | Session manager ready: com.mpnet.bitswarm.sessions.DefaultSessionManager@1467056e
+23 三月 2015 | 10:38:55,908 | INFO  | main | bitswarm.core.SocketReader |     | TCP Selector opened
+23 三月 2015 | 10:38:56,015 | INFO  | main | bitswarm.core.DatagramReader |     | UDP Selector opened
+23 三月 2015 | 10:38:56,062 | INFO  | main | bitswarm.core.SocketAcceptor |     | AcceptSelector opened
+23 三月 2015 | 10:38:56,085 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound tcp socket --> 127.0.0.1:9934
+23 三月 2015 | 10:38:56,114 | INFO  | main | bitswarm.core.SocketAcceptor |     | Added bound udp socket --> 127.0.0.1:9934
+23 三月 2015 | 10:38:56,118 | INFO  | main | mpnet.controllers.SystemController |     | Controller started: com.mpnet.controllers.SystemController 
+23 三月 2015 | 10:38:56,118 | INFO  | main | mpnet.controllers.ExtensionController |     | Controller started: com.mpnet.controllers.ExtensionController 
+23 三月 2015 | 10:38:56,119 | INFO  | main | bitswarm.core.SocketReader |     | IOHandler: com.mpnet.bitswarm.io.protocols.MPIoHandler@7bf35647
+23 三月 2015 | 10:38:56,119 | INFO  | main | bitswarm.core.SocketReader |     | SocketReader started
+23 三月 2015 | 10:38:56,120 | INFO  | main | bitswarm.core.SocketAcceptor |     | SocketAcceptor initialized
+23 三月 2015 | 10:38:56,121 | INFO  | main | bitswarm.core.SocketWriter |     | Socket Writer started (pool size:3)
+23 三月 2015 | 10:38:56,121 | INFO  | main | bitswarm.core.DatagramReader |     | DatagramReader started
+23 三月 2015 | 10:38:56,122 | INFO  | Scheduler1-thread-1 | bitswarm.core.BitSwarmEngine |     | Scheduler started: scheduler
+23 三月 2015 | 10:38:56,190 | INFO  | main | com.mpnet.MPNetServer |     | Listening Sockets: (Tcp)127.0.0.1[9934] (Udp)127.0.0.1[9934] 
+23 三月 2015 | 10:38:56,190 | INFO  | main | com.mpnet.MPNetServer |     | 
+
+==============================================================================
+>>Server(1.0.0) ready!
+============================================================================== 
+
+23 三月 2015 | 10:39:04,393 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session created: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2846 } on Server linkPort: 9934 <---> 2846
+23 三月 2015 | 10:39:18,704 | INFO  | SocketReader | bitswarm.sessions.DefaultSessionManager |     | Session removed: { Id: 1, Type: DEFAULT, Logged: No, IP: 127.0.0.1:2846 }
+23 三月 2015 | 10:55:56,280 | INFO  | pool-1-thread-4 | mpnet.util.CCULoggerTask |     | CCU stats: CCU: 0/0
